@@ -1,0 +1,237 @@
+#header .custom-container .my-navbar {
+  background-color: #fff !important;
+}
+
+#header .custom-container .my-navbar .navbar-brand img {
+  width: 129px;
+}
+
+#header .custom-container .my-navbar .navbar-brand .logo-text {
+  font-size: 35px;
+  font-weight: 900;
+  font-family: raleway;
+}
+
+#header .custom-container .my-navbar .navbar-collapse .my-btn {
+  width: 168px;
+  height: 41px;
+  background-color: #4BA87D;
+  font-size: 17px;
+  letter-spacing: 1.26px;
+  color: #fff;
+}
+
+#header .custom-container .my-navbar .navbar-collapse .my-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+#header .custom-container .my-navbar .navbar-collapse .my-ul .nav-item .nav-link {
+  font-weight: 700;
+  color: #000;
+}
+
+#header .custom-container .my-navbar .navbar-collapse .my-ul .nav-item .header-line {
+  width: 0px;
+  height: 5px;
+  background-color: #4BA87D;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#header .custom-container .my-navbar .navbar-collapse .my-ul .nav-item:hover .header-line {
+  width: 90px;
+}
+
+.general-contain {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.general-contain #create {
+  margin-bottom: 100px;
+}
+
+.general-contain #create .custom-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.general-contain #create .custom-container .row .text-zone .text-content {
+  font-family: Raleway;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.general-contain #create .custom-container .row .text-zone .text-head {
+  font-family: Playfair Display;
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 71px;
+}
+
+.general-contain #create .custom-container .row .text-zone .buttons .first {
+  height: 65px;
+  width: 200px;
+  background-color: #4BA87D;
+  margin-right: 40px;
+  outline: none;
+  border: none;
+}
+
+.general-contain #create .custom-container .row .text-zone .buttons .second {
+  background: #FFFFFF;
+  border: 3px solid #4BA87D;
+  width: 200px;
+  height: 65px;
+}
+
+.general-contain #create .custom-container .row .img-zone img {
+  max-width: 700px;
+  height: 383px;
+}
+
+.general-contain #read-more {
+  background-color: #f7f7f7;
+}
+
+.general-contain #read-more .custom-container .row .big-img-zone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.general-contain #read-more .custom-container .row .big-img-zone .img-area {
+  margin-top: 100px;
+  position: relative;
+  z-index: 2;
+  max-width: 944px;
+  height: 531px;
+  overflow: hidden;
+}
+
+.general-contain #read-more .custom-container .row .big-img-zone .img-area img {
+  width: 100%;
+}
+
+.general-contain #read-more .green-zone {
+  -webkit-clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 27%);
+          clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 27%);
+  width: 100%;
+  height: 1059px;
+  -webkit-transform: translateY(-233px);
+          transform: translateY(-233px);
+  background-color: #CAEAC7;
+}
+
+.general-contain #read-more .green-zone .row .card-area {
+  -webkit-transform: translateY(300px);
+          transform: translateY(300px);
+}
+
+.general-contain #read-more .green-zone .row .card-area .card {
+  width: 320px;
+  height: 400px;
+}
+
+.general-contain #read-more .green-zone .row .card-area .card .card-img {
+  width: 320px;
+  height: 282px;
+}
+
+.general-contain #read-more .green-zone .row .card-area .card .card-img img {
+  width: 100%;
+}
+
+.general-contain #read-more .green-zone .row .card-area .card .card-content {
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.general-contain #read-more .green-zone .row .card-area .card .card-content p {
+  max-width: 251px;
+}
+
+.general-contain #read-more .green-zone .row .card-area .card .card-foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.general-contain #read-more .green-zone .row .card-area .card .card-foot p {
+  width: 251px;
+}
+
+.general-contain #read-more .green-zone .row .card-area-2 {
+  -webkit-transform: translateY(400px);
+          transform: translateY(400px);
+}
+
+.general-contain #read-more .green-zone .row .card-area-3 {
+  -webkit-transform: translateY(460px);
+          transform: translateY(460px);
+}
+
+.general-contain #read-more .green-zone .row .card-area-3 .card-head {
+  font-family: Playfair Display;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.general-contain #read-more .green-zone .row .card-area-3 .card-content {
+  font-family: Raleway;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.custom-container {
+  max-width: 1300px;
+}
+/*# sourceMappingURL=style.css.map */
