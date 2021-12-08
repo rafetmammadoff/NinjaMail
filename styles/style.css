@@ -71,6 +71,17 @@
   color: #ffffff !important;
 }
 
+@media only screen and (max-width: 768px) {
+  #read-more .clime p {
+    font-size: 37px !important;
+    line-height: 53px !important;
+  }
+  #read-more .clime button {
+    width: 157px !important;
+    height: 45px !important;
+  }
+}
+
 #header .custom-container .my-navbar {
   background-color: #fff;
 }
@@ -207,13 +218,16 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 .general-contain #read-more .custom-container .row .big-img-zone .img-area {
   position: relative;
   z-index: 2;
   max-width: 944px;
-  height: 531px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   overflow: hidden;
 }
 
@@ -222,6 +236,65 @@
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   border-radius: 30px;
+}
+
+.general-contain #read-more .custom-container .row .big-img-zone .clime {
+  position: absolute;
+  top: 0;
+  z-index: 7;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.general-contain #read-more .custom-container .row .big-img-zone .clime p {
+  font-family: Playfair Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.general-contain #read-more .custom-container .row .big-img-zone .clime .button-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.general-contain #read-more .custom-container .row .big-img-zone .clime .button-area button {
+  width: 200px;
+  height: 65px;
+  background-color: #FFFFFF;
+  font-family: Raleway;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 1.0499999523162842px;
+  text-align: center;
+  color: #4BA87D;
+  outline: none;
+  border: none;
+}
+
+.general-contain #read-more .custom-container .row .big-img-zone .op-img {
+  position: absolute;
+  width: 1000px;
+  top: -279px;
+  left: -97px;
+}
+
+.general-contain #read-more .custom-container .row .big-img-zone .op-img img {
+  width: 1000px;
 }
 
 .general-contain #read-more .green-zone {

@@ -81,25 +81,73 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    position: relative;
                     .img-area{
                         
                         position: relative;
                         z-index: 2;
                         max-width:944px;
-                        height: 531px;
+                        height: fit-content;
                         overflow: hidden;
                         img{
                             width: 100%;
                         filter: grayscale(100%);
                         border-radius: 30px;
-                       
-
-
-                            
-                            
-        
+                        
                         }
                         
+                        
+                    }
+                    .clime{
+                        position: absolute;
+                        top: 0;
+                        z-index: 7;
+                        top: 50%; right: 50%;
+                        transform: translate(50%,-50%);
+                        p{
+                            font-family: Playfair Display;
+                            font-size: 60px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 80px;
+                            color: #FFFFFF;
+                            text-align: center;
+            
+            
+                        }
+
+                        .button-area{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            button{
+                                width: 200px;
+                                height: 65px;
+                                background-color: #FFFFFF;
+                                font-family: Raleway;
+                                font-size: 21px;
+                                font-style: normal;
+                                font-weight: 900;
+                                line-height: 25px;
+                                letter-spacing: 1.0499999523162842px;
+                                text-align: center;
+                                color: #4BA87D;
+                                outline: none;
+                                border: none;
+            
+                            }
+            
+                        }
+                    }
+                    .op-img{
+                        position: absolute;
+                        width: 1000px;
+                        top: -279px;
+                        left: -97px;
+                        img{
+                            width: 1000px;
+                            
+                        }
                     }
                 }
             }
