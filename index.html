@@ -27,11 +27,11 @@
     <link rel="stylesheet" href="./Assets/font/fonts/css/all.min.css">
   </head>
   <body>
-    <div class="general-contain">
+    <div class="general-contain dark-mode">
         <section id="header">
             <div class="container custom-container">
-                <nav class="navbar my-navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""><span class="logo-text">NinjaMail</span></a>
+                <nav class="navbar dark-mode my-navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""><span class="logo-text dark-text">NinjaMail</span></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -39,25 +39,25 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav ms-auto my-ul">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">FEATURES <span class="sr-only">(current)</span></a>
+                          <a class="nav-link dark-text" href="#">FEATURES <span class="sr-only">(current)</span></a>
                           <div class="header-line"></div>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">PRICING</a>
+                          <a class="nav-link dark-text" href="#">PRICING</a>
                           <div class="header-line"></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SERVICES</a>
+                            <a class="nav-link dark-text" href="#">SERVICES</a>
                             <div class="header-line"></div>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">PARTNERS</a>
+                            <a class="nav-link dark-text" href="#">PARTNERS</a>
                             <div class="header-line"></div>
                           </li>
                         
                       </ul>
                       <form class="form-inline my-2 my-lg-0">
-                        <button class="btn my-btn my-2 my-sm-0" type="submit">SIGN UP FREE</button>
+                        <button id="dark" class="btn my-btn my-2 my-sm-0" type="button">SIGN UP FREE</button>
                       </form>
                     </div>
                   </nav>
@@ -67,11 +67,11 @@
             <div class="container custom-container">
                 <div class="row">
                     <div class="col-lg-5 text-zone">
-                        <div class="text-head">
+                        <div class="text-head dark-text">
                             Create Stunning 
                             Email Campaigns
                         </div>
-                        <div class="text-content">
+                        <div class="text-content dark-text">
                             Create and launch email campaigns that captivateyour customers in just a few clicks.
 
                         </div>
@@ -99,7 +99,7 @@
             <div class="green-zone">
                 <div class="container custom-container">
                     <div class="row">
-                        <div class="col-lg-4 card-area">
+                        <div class="col-lg-4 col-md-4 card-area-1 card-area">
                             <div class="card">
                                 <div class="card-img"><img src="./img/card-img.png" alt=""></div>
                                 <div class="card-content">
@@ -108,7 +108,7 @@
                                 <div class="card-foot"><p>Learn More <i class="fas fa-chevron-right"></i></p></div>
                             </div>
                         </div>
-                        <div class="col-lg-4 card-area card-area-2">
+                        <div class="col-lg-4 col-md-4 card-area card-area-2">
                             <div class="card">
                                 <div class="card-img"><img src="./img/card-img2.png" alt=""></div>
                                 <div class="card-content">
@@ -117,15 +117,17 @@
                                 <div class="card-foot"><p>Learn More <i class="fas fa-chevron-right"></i></p></div>
                             </div>
                         </div>
-                        <div class="col-lg-4 card-area-3">
+                        <div class="col-lg-4 col-md-4 card-area-3">
                             
-                                <div class="card-head">
+                               <div class="card">
+                                <div class="card-head dark-text">
                                     The source forproven, engaging email campaigns
                                 </div>
-                                <div class="card-content">
+                                <div class="card-content dark-text">
                                     Whether you’re a startup, smallbusiness, e-commerce store, or want to promote your app, NinjaMailhas the feature set tailored foryour business. 
 
                                 </div>
+                               </div>
                                 
                             
                         </div>
@@ -133,6 +135,63 @@
                 </div>
             </div>
 
+        </section>
+        <section id="three-image">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 img-card">
+                        <div class="img-area">
+                            <img src="./img/frankie.png" alt="">
+                            <p>Frankie</p>
+                            <span>Member since 2016</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 img-card">
+                        <div class="img-area">
+                            <img src="./img/camile.png" alt="">
+                            <p>Sophie</p>
+                            <span>Member since 2016</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 img-card">
+                        <div class="img-area">
+                            <img src="./img/elayne.png" alt="">
+                            <p>Margeret</p>
+                            <span>Member since 2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="email">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-lg-12 email-area">
+                        <p><span class="dark-text">Learn how others are reaching their audience easier than ever before.</span></p>
+                        <div class="form-area">
+                            <form>
+                                <input class="mail" type="email">
+                                <input class="btn" type="button" value="JOIN OUR LIST">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="best-brend">
+            <div class="container custom-container">
+                <div class="row">
+                    <p><span class="dark-text">All the best brands already use us.</span></p>
+                    <div class="col-lg-2 col-6 col-sm-4 sm-img-1"><img src="./img/sm1.png" alt=""></div>
+                    <div class="col-lg-2 col-6 col-sm-4 sm-img-2"><img src="./img/sm2.png" alt=""></div>
+                    <div class="col-lg-2 col-6 col-sm-4 sm-img-3"><img src="./img/sm5.png" alt=""></div>
+                    <div class="col-lg-2 col-6 col-sm-6 sm-img-4"><img src="./img/sm4.png" alt=""></div>
+                    <div class="col-lg-2 col-12 col-sm-6 sm-img-5"><img src="./img/sm5.png" alt=""></div>
+
+
+
+                </div>
+            </div>
         </section>
     
     </div>

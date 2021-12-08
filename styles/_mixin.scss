@@ -3,3 +3,94 @@
 //         transform: translateX(200px);
 //     }
 // }
+@media only screen and (max-width: 600px) {
+    .first{
+        width: 150px !important;
+        margin: 10px !important;
+    }
+    .second{
+        width: 150px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #read-more{
+        .img-area{
+            margin: 0 !important;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .green-zone{
+        height: 1919px !important; 
+        .card-area-1{
+            .card{
+
+                width: 280px;
+                float: right;
+
+            }
+        }
+        .card-area-2{
+            .card{
+
+                width: 280px;
+                float: left;
+
+            }
+        }
+        .card-area-1{
+            .card{
+
+                width: 280px;
+                float: right;
+
+            }
+        }
+        .card-area-3{
+            .card{
+
+                width: 280px;
+                float: right;
+
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .form-area{
+        form{
+            width: 80% !important;
+            .mail{
+                width: 100% !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .email-area{
+        p{
+            span{
+                width: 100% !important;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 992px) {
+    #best-brend{
+        .col-lg-2{
+            width: 20%;
+        }
+    }
+}
+
+.siyah{
+    background-color: #333333 !important;
+    transition: 1s !important;
+}
+.green{
+    background-color: rgb(6, 44, 40) !important;
+}
+.white-text{
+    color: #ffffff !important;
+}
