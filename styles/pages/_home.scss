@@ -3,6 +3,7 @@
     width: 100%;
     overflow: hidden;
     z-index: 0;
+    background-color: rgb(197, 190, 190);
 
     #create{
         transform: translateY(90px);
@@ -21,6 +22,7 @@
                         font-style: normal;
                         font-weight: 500;
                         line-height: 26px;
+                        margin-bottom: 20px;
                         
                         
 
@@ -31,6 +33,7 @@
                         font-style: normal;
                         font-weight: 900;
                         line-height: 71px;
+                        margin-bottom: 20px;
                         
 
                     }
@@ -139,16 +142,7 @@
             
                         }
                     }
-                    .op-img{
-                        position: absolute;
-                        width: 1000px;
-                        top: -279px;
-                        left: -97px;
-                        img{
-                            width: 1000px;
-                            
-                        }
-                    }
+                    
                 }
             }
         }
@@ -168,6 +162,7 @@
                         max-width: 320px;
                         max-height: 400px;
                         border-radius: 20px;
+                        background-color: #b8b8b8;
 
                         
                         .card-img{
@@ -220,6 +215,7 @@
                         font-style: normal;
                         font-weight: 900;
                         line-height: 48px;
+                        margin-bottom: 20px;
                         
 
                     }

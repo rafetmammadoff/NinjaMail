@@ -83,7 +83,7 @@
 }
 
 #header .custom-container .my-navbar {
-  background-color: #fff;
+  background-color: transparent !important;
 }
 
 #header .custom-container .my-navbar .navbar-brand img {
@@ -139,6 +139,7 @@
   width: 100%;
   overflow: hidden;
   z-index: 0;
+  background-color: #c5bebe;
 }
 
 .general-contain #create {
@@ -164,6 +165,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
+  margin-bottom: 20px;
 }
 
 .general-contain #create .custom-container .row .text-zone .text-head {
@@ -172,6 +174,7 @@
   font-style: normal;
   font-weight: 900;
   line-height: 71px;
+  margin-bottom: 20px;
 }
 
 .general-contain #create .custom-container .row .text-zone .buttons .first {
@@ -286,17 +289,6 @@
   border: none;
 }
 
-.general-contain #read-more .custom-container .row .big-img-zone .op-img {
-  position: absolute;
-  width: 1000px;
-  top: -279px;
-  left: -97px;
-}
-
-.general-contain #read-more .custom-container .row .big-img-zone .op-img img {
-  width: 1000px;
-}
-
 .general-contain #read-more .green-zone {
   -webkit-clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 28%);
           clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 28%);
@@ -314,6 +306,7 @@
   max-width: 320px;
   max-height: 400px;
   border-radius: 20px;
+  background-color: #b8b8b8;
 }
 
 .general-contain #read-more .green-zone .row .card-area .card .card-img {
@@ -389,6 +382,7 @@
   font-style: normal;
   font-weight: 900;
   line-height: 48px;
+  margin-bottom: 20px;
 }
 
 .general-contain #read-more .green-zone .row .card-area-3 .card-content {

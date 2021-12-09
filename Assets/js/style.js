@@ -118,3 +118,55 @@ $(function(){
 //     $(".dark-text").removeClass("white-text")
 
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(function(){
+//     var isOn=localStorage.getItem("dark")
+//     if(isOn=="on"){
+//         white()
+//     }else{
+//         dark()
+//     }
+
+//     $("#dark").click(function(){
+//         var isOnClick=localStorage.getItem("dark")
+//         if(isOnClick=="on"){
+//             localStorage.setItem("dark","off")
+//         }else{
+//             localStorage.setItem("dark","on")
+//         }
+        
+
+//         $(".dark-mode").toggleClass("siyah")
+//         $(".green-zone").toggleClass("green")
+//         $("#started").toggleClass("green")
+//         $(".dark-text").toggleClass("white-text")
+//     });
+// })
+
+// function white(){
+//     $(".dark-mode").removeClass("siyah")
+//         $(".green-zone").removeClass("green")
+//         $("#started").removeClass("green")
+//         $(".dark-text").removeClass("white-text")
+// }
+// function dark(){
+//     $(".dark-mode").addClass("siyah")
+//         $(".green-zone").addClass("green")
+//         $("#started").addClass("green")
+//         $(".dark-text").addClass("white-text")
+// }
